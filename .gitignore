@@ -6,6 +6,7 @@ app/components
 .bower-registry
 .bower-tmp
 
+*.css
 
 ### Node ###
 # Logs
