@@ -1,0 +1,67 @@
+<link rel="import" href="../../components/polymer/polymer.html">
+
+<polymer-element name="caesar-cipher">
+  <template>
+    <link rel="stylesheet" href="caesar-cipher.css">
+
+    <my-card z="1">
+      <div>Offset</div>
+
+      <div layout horizontal center>
+        <paper-input
+            class="paper-input"
+            label="Offset"
+            value="{{offset}}"
+            flex>
+        </paper-input>
+      </div>
+    </my-card>
+
+    <my-card z="1" layout horizontal center>
+      <div layout horizontal center>
+        <div>Mode:</div>
+
+        <paper-radio-group selected="{{mode}}">
+          <paper-radio-button name="encrypt" label="Encrypt"></paper-radio-button>
+          <paper-radio-button name="decrypt" label="Decrypt"></paper-radio-button>
+        </paper-radio-group>
+
+      </div>
+
+      <div layout horizontal center>
+        <paper-input
+            class="paper-input"
+            label="Input"
+            floatingLabel
+            value="{{input}}"
+            flex>
+        </paper-input>
+
+        <template if="{{mode === 'encrypt'}}">
+          <paper-icon-button
+              icon="arrow-forward"
+              on-click="{{encrypt}}">
+          </paper-icon-button>
+        </template>
+
+        <template if="{{mode === 'decrypt'}}">
+          <paper-icon-button
+              icon="arrow-forward"
+              on-click="{{decrypt}}">
+          </paper-icon-button>
+        </template>
+
+        <paper-input
+            class="paper-input"
+            label="Output"
+            floatingLabel
+            disabled
+            value="{{output}}"
+            flex>
+        </paper-input>
+      </div>
+    </my-card>
+  </template>
+
+  <script src="caesar-cipher.js"></script>
+</polymer-element>
