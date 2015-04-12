@@ -1,0 +1,30 @@
+{
+  "name": "caesar-cipher",
+  "version": "1.0.0",
+  "homepage": "https://github.com/grvcoelho/polymer-seed",
+  "authors": [
+    "Guilherme Rv Coelho <guilherme@cenoura.co>"
+  ],
+  "description": "A Polymer implementation of the Caesar Cipher",
+  "private": true,
+  "main": "app/index.html",
+  "keywords": [
+    "polymer",
+    "web-components",
+    "polymer-seed"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.5",
+    "core-elements": "Polymer/core-elements#~0.5.5",
+    "paper-elements": "Polymer/paper-elements#~0.5.5",
+    "font-roboto": "Polymer/font-roboto#~0.5.5"
+  }
+}
