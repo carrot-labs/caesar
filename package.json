@@ -1,5 +1,5 @@
 {
-  "name": "caesar-cipher",
+  "name": "caesar",
   "version": "1.0.0",
   "description": "A Polymer implementation of the Caesar Cipher",
   "main": "gulpfile.js",
