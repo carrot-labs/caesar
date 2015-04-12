@@ -1,0 +1,18 @@
+.paper-input /deep/ [focused] /deep/ .label-text {
+  color: #ff4081;
+}
+.paper-input /deep/ .focused-underline {
+  background-color: #ff4081;
+}
+paper-icon-button {
+  margin: 0 2rem;
+}
+.paper-button--info {
+  background: #2196f3;
+  color: #fff;
+}
+.paper-button--default {
+  background: #e0e0e0;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVsZW1lbnRzL2NhZXNhci1jaXBoZXIvY2Flc2FyLWNpcGhlci5zdHlsIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdBO0VBQ0UsT0FBTSxRQUFOOztBQUVGO0VBQ0Usa0JBQWlCLFFBQWpCOztBQUVGO0VBQ0UsUUFBTyxPQUFQOztBQUdBO0VBQ0UsWUFBVyxRQUFYO0VBQ0EsT0FBTSxLQUFOOztBQUNGO0VBQ0UsWUFBVyxRQUFYIiwiZmlsZSI6ImVsZW1lbnRzL2NhZXNhci1jaXBoZXIvY2Flc2FyLWNpcGhlci5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBJbXBvcnQgdGhpcyB0byBnZXQgYWNjZXNzIHRvIHBhbGV0dGUgYW5kIHZhcmlhYmxlc1xuQGltcG9ydCAnLi4vLi4vc3R5bGVzL2Jhc2UnXG5cbi5wYXBlci1pbnB1dCAvZGVlcC8gW2ZvY3VzZWRdIC9kZWVwLyAubGFiZWwtdGV4dFxuICBjb2xvciBhY2NlbnQtYTIwMFxuXG4ucGFwZXItaW5wdXQgL2RlZXAvIC5mb2N1c2VkLXVuZGVybGluZVxuICBiYWNrZ3JvdW5kLWNvbG9yIGFjY2VudC1hMjAwXG5cbnBhcGVyLWljb24tYnV0dG9uXG4gIG1hcmdpbiAwIDJyZW1cblxuLnBhcGVyLWJ1dHRvblxuICAmLS1pbmZvXG4gICAgYmFja2dyb3VuZCBibHVlXG4gICAgY29sb3Igd2hpdGVcbiAgJi0tZGVmYXVsdFxuICAgIGJhY2tncm91bmQgZ3JleS0zMDBcbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
