@@ -39,14 +39,14 @@ Polymer('caesar-cipher', {
       ascii = letter.charCodeAt(0);
 
       if(ascii >= 97 && ascii <= 123) {
-        newAscii = (ascii + offset + 26 - 97) % 26 + 97;
+        calculatedAscii = (ascii + offset + 26 - 97) % 26 + 97;
       }
 
       if(ascii >= 65 && ascii <= 90) {
-        newAscii = (ascii + offset + 26 - 65) % 26 + 65;
+        calculatedAscii = (ascii + offset + 26 - 65) % 26 + 65;
       }
 
-      cryptedLetters.push(String.fromCharCode(newAscii));
+      cryptedLetters.push(String.fromCharCode(calculatedAscii));
     });
 
     return cryptedLetters.join('');
