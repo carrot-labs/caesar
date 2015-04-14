@@ -1,6 +1,6 @@
 Polymer('caesar-cipher', {
   publish: {
-    input: 'abc',
+    input: '',
     output: '',
     offset: 3,
     mode: 'encrypt'
