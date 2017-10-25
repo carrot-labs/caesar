@@ -6,7 +6,7 @@ Polymer('caesar-cipher', {
     input: '',
     output: '',
     offset: 3,
-    mode: 'encrypt'
+    mode: 'encrypt',
   },
 
   /**
@@ -16,36 +16,36 @@ Polymer('caesar-cipher', {
    * @param {Number} offset The offset the algorithm must use.
    * @return {Array} The crypted string.
    */
-  crypt: function(string, offset) {
+  crypt (string, offset) {
     /**
      * An array of each letter of the string.
      *
      * @type {Array}
      */
-    var letters = string.split('');
+    const letters = string.split('')
 
     /**
      * An array of each crypted letter of the string.
      *
      * @type {Array}
      */
-    var cryptedLetters = [];
+    const cryptedLetters = []
 
     /**
      * The ascii code of the letter.
      *
      * @type {Number}
      */
-    var ascii;
+    let ascii
 
     /**
      * The ascii code calculated.
      *
      * @type {Number}
      */
-    var calculatedAscii;
+    let calculatedAscii
 
-    letters.map(function(letter) {
+    letters.map((letter) => {
       ascii = letter.charCodeAt(0);
 
       if(ascii >= 97 && ascii <= 123) {
@@ -67,7 +67,7 @@ Polymer('caesar-cipher', {
    * 
    * @function
    */
-  encrypt: function() {
+  encrypt () {
     var input = this.input;
     var offset = Number(this.offset);
 
@@ -79,7 +79,7 @@ Polymer('caesar-cipher', {
    * 
    * @function
    */
-  decrypt: function() {
+  decrypt () {
     var input = this.input;
     var offset = 0 - Number(this.offset);
 
